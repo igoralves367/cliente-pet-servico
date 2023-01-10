@@ -1,4 +1,4 @@
-package br.com.anakarolini.clientepetservico.cliente.application;
+package br.com.anakarolini.clientepetservico.cliente.application.api;
 
 import javax.validation.Valid;
 
