@@ -1,5 +1,9 @@
 package br.com.anakarolini.clientepetservico.cliente.application.api;
 
-public class ClienteResponse {
+import java.util.UUID;
 
+import lombok.Value;
+@Value
+public class ClienteResponse {
+	private UUID idCliente;
 }
