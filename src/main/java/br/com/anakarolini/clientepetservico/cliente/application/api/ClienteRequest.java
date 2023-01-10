@@ -10,10 +10,8 @@ import javax.validation.constraints.NotNull;
 import org.hibernate.validator.constraints.br.CPF;
 
 import br.com.anakarolini.clientepetservico.cliente.domain.Sexo;
-import lombok.Builder;
 import lombok.Value;
 @Value
-@Builder
 public class ClienteRequest {
 	@NotBlank
 	private String nomeCompleto;
