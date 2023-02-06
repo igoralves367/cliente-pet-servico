@@ -17,7 +17,7 @@
 		<spring-doc.version>1.6.1</spring-doc.version>
 	</properties>
 	<dependencies>
-	<dependency>
+		<dependency>
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-ui</artifactId>
 			<version>${spring-doc.version}</version>
